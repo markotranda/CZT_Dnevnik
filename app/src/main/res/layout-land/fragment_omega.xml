@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="left"
+    android:orientation="horizontal" >
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:id="@+id/student_name"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColorHighlight="#fff"
+        android:textColorHint="#fff"
+        android:textColorLink="#fff" />
+    <TextView
+        android:layout_width="63dp"
+        android:layout_height="40dp"
+        android:id="@+id/student_odeljenje"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColorHighlight="#fff"
+        android:textColorHint="#fff"
+        android:textColorLink="#fff" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnInfo"
+        android:onClick="onClickInfo"
+        android:background="@drawable/info"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnOcene"
+        android:onClick="onClickOcene"
+        android:background="@drawable/ocene"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAktiv"
+        android:onClick="onClickAktiv"
+        android:background="@drawable/napomene"/>
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:popupBackground="#000"
+        android:id="@+id/predmeti">
+        </Spinner>
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    android:background="@drawable/bck"
+    <TextView
+        android:id="@+id/ocena_id"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_weight="0"
+        android:textColor="#fff" />
+    <TextView
+        android:id="@+id/ocena_ocena"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="6dip"
+        android:paddingTop="6dip"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:textColor="#fff" />
+    <TextView
+        android:id="@+id/ocena_kategorija"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="6dip"
+        android:paddingTop="6dip"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_weight="4"
+        android:textColor="#fff" />
+    <TextView
+        android:id="@+id/ocena_datum"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="6dip"
+        android:paddingTop="6dip"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_weight="4"
+        android:textColor="#fff" />
+    <TextView
+        android:id="@+id/ocena_beleska"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="6dip"
+        android:paddingTop="6dip"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_weight="10"
+        android:textColor="#fff" />
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/iks"
+        android:id="@+id/btnDeleteOcena"
+        android:onClick="onClickDeleteOcena"/>
+</LinearLayout>

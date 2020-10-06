@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="left"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Broj časa: "
+            android:textColor="#fff"
+            android:textSize="30sp"/>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/casBroj"
+            android:text="Broj Casa"
+                android:textColor="#fff"
+            android:textSize="30sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" - "
+            android:textColor="#fff"
+            android:textSize="30sp"/>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/casNaslov"
+            android:text="naslov"
+            android:textColor="#fff"
+            android:textSize="30sp"/>
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_height="480dp"
+        android:layout_width="match_parent">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:textSize="16sp"
+            android:id="@+id/casText"
+            android:textColor="#fff"
+            android:text="umm"
+            />
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="right">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:id="@+id/btnUrediC"
+            android:layout_gravity="bottom"
+            android:background="@drawable/uredi"
+            android:onClick="onClickEdit" />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:id="@+id/btnPrekiniC"
+            android:layout_gravity="bottom"
+            android:background="@drawable/prekini"
+            android:onClick="onClickEdit"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:id="@+id/btnSaveC"
+            android:onClick="onClickSave"
+            android:layout_gravity="bottom"
+            android:background="@drawable/sacuvaj" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:id="@+id/btnDeleteC"
+            android:onClick="onClickDelete"
+            android:layout_gravity="bottom"
+            android:background="@drawable/izbrisi" />
+    </LinearLayout>
+</LinearLayout>

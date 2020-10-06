@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_podesavanja"
+        android:title="podešavanja"
+        app:showAsAction="always"/>
+    <item android:id="@+id/action_ucenici"
+        android:title="učenici"
+        app:showAsAction="always"/>
+    <item android:id="@+id/action_predmeti"
+        android:title="predmeti"
+        app:showAsAction="always"/>
+    <item android:id="@+id/action_planrada"
+        android:title="plan rada"
+        app:showAsAction="always"/>
+</menu>

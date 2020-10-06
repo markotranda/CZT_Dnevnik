@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dnevnik++</string>
+    <string name="title_activity_login_activity2">LoginActivity2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_ucenici">UceniciActivity</string>
+    <string name="password">1234</string>
+    <string name="title_activity_podesavanja">PodesavanjaActivity</string>
+    <string name="title_activity_predmeti">PredmetiActivity</string>
+    <string name="title_activity_predmeti_razredi">PredmetiRazrediActivity</string>
+    <string name="title_activity_plan_rada">PlanRadaActivity</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

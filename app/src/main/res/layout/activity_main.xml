@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.markotranda.dnevnik.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ucenici"
+        android:id="@+id/button_ucenici"
+        android:onClick="OnClickUcenici"
+        android:layout_marginTop="107dp"
+        android:layout_below="@+id/button5"
+        android:layout_toLeftOf="@+id/button_predmeti"
+        android:layout_toStartOf="@+id/button_predmeti"
+        android:layout_marginRight="145dp"
+        android:layout_marginEnd="145dp"
+        android:clickable="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="predmeti"
+        android:id="@+id/button_predmeti"
+        android:layout_marginRight="185dp"
+        android:layout_marginEnd="185dp"
+        android:layout_alignBaseline="@+id/button_ucenici"
+        android:layout_alignBottom="@+id/button_ucenici"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="plan rada"
+        android:id="@+id/button_plan_rada"
+        android:layout_marginTop="107dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/button_ucenici"
+        android:layout_alignStart="@+id/button_ucenici" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nesto jos"
+        android:id="@+id/button5"
+        android:layout_alignTop="@+id/button_plan_rada"
+        android:layout_alignLeft="@+id/button_predmeti"
+        android:layout_alignStart="@+id/button_predmeti" />
+</RelativeLayout>
